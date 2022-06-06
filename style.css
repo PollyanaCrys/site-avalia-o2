@@ -1,0 +1,138 @@
+body{
+    background-color: rgb(26, 24, 24);
+    margin: 0;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding-bottom: 2%;
+    margin-left: 0;
+    padding-left: 200px;
+}
+
+.nav-item-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 80px;
+    margin: 0;
+}
+
+.Navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: space-between;
+    row-gap: 10px;
+    background-color: black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.nav-item{
+    background-color: black;
+    margin-left: 20px;
+}
+
+.nav-item a{
+    margin-top: 20px;
+    margin-right: 20%;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+#princ1{
+    background-color: white;
+    margin: 2%;
+}
+
+#princ2{
+    background-color: white;
+    margin: 2%;
+}
+
+
+.itens-container{
+    display: flex;
+    flex-direction: row;
+    row-gap: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+}
+
+.item{
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+    margin: 2%;
+    margin-left: 150px;
+}
+
+.item2{
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+    margin: 2%;
+    margin-left: 200px;
+}
+
+
+#princ1 img{
+    height: 250px;
+    margin: 1%;
+}
+
+#princ1 a{
+    text-decoration: none;
+    background-color: black;
+    padding: 2%;
+    color: white;
+    margin-left: 500px;
+    position: relative;
+    top: -33px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#princ2 a{
+    text-decoration: none;
+    background-color: black;
+    padding: 2%;
+    color: white;
+    margin-left: 500px;
+    position: relative;
+    top: -33px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+#princ2 img{
+    height: 250px;
+    margin: 1%;
+}
+
+
+#contato{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+
+#conta{
+    margin: 2%;
+    margin-left: 200px;
+}
+
+#conta a{
+    text-decoration: none;
+    color: white;
+}
+
+#conta label{
+    color: rgb(92, 83, 83);
+}
